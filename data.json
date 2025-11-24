@@ -1,0 +1,86 @@
+[
+  {
+    "nome": "Toyota Corolla",
+    "descricao": "Um dos sedãs mais vendidos do mundo, conhecido por sua confiabilidade, conforto e eficiência. Lançado em 1966, chegou ao Brasil em 1992 e começou a ser produzido nacionalmente em 1998. [2, 3, 4]",
+    "ano": 1966,
+    "link": "https://www.toyota.com.br/modelos/corolla/",
+    "tags": [
+      "sedan",
+      "confiabilidade",
+      "best-seller",
+      "híbrido"
+    ]
+  },
+  {
+    "nome": "Toyota Hilux",
+    "descricao": "Picape média robusta e durável, líder de mercado em vários países. Lançada em 1968, é sinônimo de força para trabalho e lazer. [1, 7, 9]",
+    "ano": 1968,
+    "link": "https://www.toyota.com.br/modelos/hilux-cabine-simples",
+    "tags": [
+      "picape",
+      "4x4",
+      "robustez",
+      "off-road"
+    ]
+  },
+  {
+    "nome": "Toyota SW4",
+    "descricao": "SUV derivado da plataforma da Hilux, combinando a robustez de uma picape com o conforto e espaço para até 7 passageiros. [15, 20]",
+    "data_criacao": "2005",
+    "link": "https://www.toyota.com.br/modelos/sw4/",
+    "tags": [
+      "suv",
+      "7 lugares",
+      "luxo",
+      "4x4"
+    ]
+  },
+  {
+    "nome": "Toyota RAV4",
+    "descricao": "Considerado um dos pioneiros no segmento de SUVs compactos, lançado em 1994. É conhecido pelo design moderno, eficiência e por popularizar a tecnologia híbrida no segmento. [16, 30]",
+    "ano": 1994,
+    "link": "https://www.toyota.com.br/modelos/rav4",
+    "tags": [
+      "suv",
+      "híbrido",
+      "tecnologia",
+      "urbano"
+    ]
+  },
+  {
+    "nome": "Toyota Yaris",
+    "descricao": "Carro compacto oferecido nas versões hatch e sedã, posicionado entre o Etios (descontinuado) e o Corolla. Chegou ao mercado americano em 2007 para substituir o Echo. [22, 23]",
+    "ano": 1999,
+    "link": "https://www.toyota.com.br/modelos/yaris-cross",
+    "tags": [
+      "compacto",
+      "hatch",
+      "sedan",
+      "cidade"
+    ]
+  },
+  {
+    "nome": "Toyota Corolla Cross",
+    "descricao": "SUV médio baseado na plataforma do Corolla, oferecendo uma posição de dirigir mais elevada e maior versatilidade, com opção de motorização híbrida. [10]",
+    "data_criacao": "2020",
+    "link": "https://www.toyota.com.br/modelos/corolla-cross/",
+    "tags": [
+      "suv",
+      "híbrido",
+      "segurança",
+      "conforto"
+    ]
+  },
+  {
+    "nome": "Toyota Camry",
+    "descricao": "Sedan de grande porte, conhecido pelo luxo, desempenho e conforto. É um dos modelos mais tradicionais da marca, sendo importado para o Brasil desde 1992. [2]",
+    "ano": 1982,
+    "link": "https://www.toyota.com/camry/",
+    "tags": [
+      "sedan",
+      "luxo",
+      "desempenho",
+      "premium"
+    ]
+  }
+]
