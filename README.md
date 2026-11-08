@@ -1,46 +1,37 @@
-<h1 align="center">Imersão Dev - Projeto 01</h1>
+# Toyota Knowledge Base
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=status&message=concluido&color=GREEN&style=for-the-badge"/>
-  <img src="https://img.shields.io/static/v1?label=dev&message=joaomaerbalbarros&color=blue&style=for-the-badge"/>
-</p>
+First project from Alura's **Imersão Dev** program: a static page that loads a small JSON dataset of Toyota models and lets you search it.
 
-## 💻 Sobre o projeto
+**Live demo:** https://joaomaerbalbarros.github.io/imersao-dev-01/
 
-Este é o primeiro projeto desenvolvido durante a **Imersão Dev da Alura**. 
+## How it works
 
-**O que ele faz:**
-> [ESCREVA AQUI EM 1 LINHA: Ex: É um conversor de moedas que transforma Dólar em Real / É um jogo de adivinhação de números / etc.]
+- On page load, `script.js` fetches `data.json` (7 models: Corolla, Hilux, SW4, RAV4, Yaris, Corolla Cross and Camry) and renders one card per model with its name, launch year, description and a link to the official page.
+- The search runs on the button click or on Enter. It matches the term, case-insensitive, against the model's **name**, **description** and **year**. An empty search shows every model.
+- Results are ranked by relevance: an exact name match comes first, then names that start with the term, then the rest in their original order.
+- If nothing matches, the page shows a "no results" message.
 
----
+The interface and the dataset are in Portuguese.
 
-## 🚀 Como visualizar
+## Files
 
-Você pode acessar o projeto rodando ao vivo clicando no link abaixo:
+| File | Contents |
+|---|---|
+| `index.html` | page structure: header with the search field, card container and footer |
+| `style.css` | layout and card styling |
+| `script.js` | data loading, filtering, ranking and card rendering |
+| `data.json` | the dataset (`nome`, `descricao`, `ano`, `link`, `tags`) |
 
-### 🌐 [Clique aqui para acessar o projeto](https://joaomaerbalbarros.github.io/imersao-dev-01/)
+## Running locally
 
----
+`fetch` does not work when the page is opened straight from the file system, so serve the folder over HTTP:
 
-## 🛠 Tecnologias utilizadas
+```bash
+python3 -m http.server 8000
+```
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
+Then open http://localhost:8000.
 
-- **HTML5**: Estruturação da página.
-- **CSS3**: Estilização e layout.
-- **JavaScript**: Lógica de programação e interatividade.
+## Stack
 
----
-
-## 📸 Preview
-
-> [DICA: Tire um print da tela do seu projeto, salve o arquivo na pasta do projeto, e coloque o nome do arquivo aqui embaixo, ex: ![Screenshot](print.png)]
-
----
-
-## 📝 Autor
-
-Desenvolvido por **João Maerbal Barros**.
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/SEU-USUARIO-LINKEDIN/) 
-[![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=Github&logoColor=white)](https://github.com/joaomaerbalbarros)
+HTML · CSS · JavaScript (no frameworks) · GitHub Pages
